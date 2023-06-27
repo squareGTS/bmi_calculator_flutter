@@ -5,7 +5,7 @@ class ReusableCard extends StatelessWidget {
 
   final Color colours;
   final Widget cardChild;
-  final Function? onPress;
+  final Function()? onPress;
 
   @override
   Widget build(BuildContext context) {
